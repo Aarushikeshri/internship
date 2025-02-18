@@ -50,7 +50,7 @@ const Homepage = () => {
         <img src="https://via.placeholder.com/150" alt="Happy Client" style={{ borderRadius: "50%", width: "96px", height: "96px", marginRight: "24px" }} />
         <div>
           <h4 style={{ fontSize: "24px", fontWeight: 700, marginBottom: "8px" }}>Happy Clients</h4>
-          <p style={{ color: "#4a5568", fontSize: "16px" }}>2.5k+ satisfied clients</p>
+          <p style={{ color: "#231F20"}}>2.5k+ satisfied clients</p>
         </div>
       </section>
 
@@ -58,13 +58,17 @@ const Homepage = () => {
       <section style={{ textAlign: "center", maxWidth: "600px", margin: "0 auto", padding: "60px 20px" }}>
         <h3 style={{ fontSize: "28px", fontWeight: 700, marginBottom: "20px" }}>Why Should You Choose Study.in</h3>
         <p style={{ fontSize: "18px", color: "#4a5568", lineHeight: 1.6 }}>
-          Learn about our expert support, quick visa solutions, and dedicated assistance to help you achieve your study and migration goals.
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor Lorem ipsum dolor sit amet consetetur sadipscing elitr 
         </p>
+        <button style={{padding: "12px 24px", borderRadius: "8px", fontWeight: 600, fontSize: "16px", backgroundColor: "#e53e3e", color: "white", border: "none", cursor: "pointer"}}>Contact us</button>
       </section>
 
       {/* Footer */}
-      <footer style={{ backgroundColor: "#1a202c", padding: "24px 0", color: "#ffffff", textAlign: "center" }}>
-        <p style={{ fontSize: "14px", margin: 0 }}>&copy; 2025 Study.in. All rights reserved.</p>
+      <footer style={{  padding: "24px 0", color: "##231F20", textAlign: "center" }}>
+        <h1>Office Location</h1>
+        <nav>
+          <p style={{ fontSize: "18px", color: "#4a5568", lineHeight: 1.6 }}>To check the location on Google Maps, click any of the below locations.</p>
+        </nav>
       </footer>
     </div>
   );
