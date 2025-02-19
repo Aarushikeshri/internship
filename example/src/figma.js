@@ -1,4 +1,6 @@
 import React from "react";
+import map from './map.png';
+import first_img from './first_img.png';
 
 const Homepage = () => {
   return (
@@ -20,16 +22,41 @@ const Homepage = () => {
       </header>
 
       {/* Hero Section */}
-      <section style={{ backgroundColor: "#fef2f2", padding: "60px 20px", textAlign: "center" }}>
+      
+      <section style={{ backgroundColor: "#fef2f2", padding: "60px 20px"}}>
+        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between'}}>
+
+          <div style={{display:'flex', flexDirection:'column'}}> 
+
         <h2 style={{ fontSize: "40px", color: "#1a202c", fontWeight: 700, marginBottom: "16px" }}>
           Are You Facing <span style={{ color: "#e53e3e" }}>No Further Stay</span> Condition?
+    
         </h2>
         <p style={{ fontSize: "18px", color: "#4a5568", marginBottom: "32px" }}>
           We can solve your visa-related issues, whether it is a new visa or permanent residency application.
         </p>
-        <div style={{ display: "flex", justifyContent: "center", gap: "16px" }}>
-          <button style={{ padding: "12px 24px", borderRadius: "8px", fontWeight: 600, fontSize: "16px", backgroundColor: "#e53e3e", color: "white", border: "none", cursor: "pointer" }}>Get Visa Help Now</button>
-          <button style={{ padding: "12px 24px", borderRadius: "8px", fontWeight: 600, fontSize: "16px", backgroundColor: "#f7fafc", color: "#e53e3e", border: "none", cursor: "pointer" }}>Book Appointment</button>
+        <div style={{display:'flex',flexDirection:'row'}}> 
+
+        <button style={{ padding: "12px",width:'200px', borderRadius: "8px", fontWeight: 600, fontSize: "16px", backgroundColor: "#e53e3e", color: "white", border: "none", cursor: "pointer" }}>Get Visa Help Now</button>
+
+        <button style={{ padding: "12px 24px", borderRadius: "8px", fontWeight: 600, fontSize: "16px", backgroundColor: "#f7fafc", color: "#e53e3e", border: "none", cursor: "pointer" ,width:'200px'}}>Book Appointment</button>
+        </div>
+       
+          </div>
+        <div >
+        
+        </div>
+        <div>
+        <img style={{height:'607px', width:'645px'}} src= {first_img}></img>
+
+        </div>
+     </div>
+        <div>
+          <button style={{ color:"red"}}></button>
+          <butoon></butoon>
+          <button></button>
+          <button></button>
+          <button></button>
         </div>
       </section>
 
@@ -68,6 +95,7 @@ const Homepage = () => {
         <h1>Office Location</h1>
         <nav>
           <p style={{ fontSize: "18px", color: "#4a5568", lineHeight: 1.6 }}>To check the location on Google Maps, click any of the below locations.</p>
+          <img style={{height:'607px', width:'645px'}} src= {map}></img>
         </nav>
       </footer>
     </div>
